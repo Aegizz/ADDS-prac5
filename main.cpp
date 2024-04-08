@@ -17,14 +17,14 @@ int main(){
         arr.push_back(temp);
     }
     RecursiveBinarySearch * bs = new RecursiveBinarySearch();
-    Sort * sorter = new QuickSort();
+    Sort * sorter = new BubbleSort();
     arr = sorter->sort(arr);
 
     std::cout << (bs->search(arr, 1) ? "true" : "false");
     for (int i = 0; i < arr.size(); i++){
         std::cout << " " << arr[i];
     }
-
+    std::cout << std::endl;
     return 0;
 
 }
