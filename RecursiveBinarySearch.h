@@ -4,7 +4,8 @@
 #include <vector>
 
 class RecursiveBinarySearch{
-    bool search(std::vector<int> list, int x);
+    public:
+        bool search(std::vector<int> list, int x);
 
 };
 
