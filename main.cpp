@@ -17,7 +17,7 @@ int main(){
         arr.push_back(temp);
     }
     RecursiveBinarySearch * bs = new RecursiveBinarySearch();
-    Sort * sorter = new BubbleSort();
+    Sort * sorter = new QuickSort();
     arr = sorter->sort(arr);
 
     std::cout << (bs->search(arr, 1) ? "true" : "false");
